@@ -18,8 +18,6 @@ def long_planeteer_calls(words)
 end
 
 def find_the_cheese(ingredients)
-  # the array below is here to help
-    new_array = []
     cheese_types = ["cheddar", "gouda", "camembert"]
     cheese_types.each do |cheese|
       #binding.pry
