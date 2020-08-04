@@ -22,9 +22,10 @@ def find_the_cheese(ingredients)
     new_array = []
     cheese_types = ["cheddar", "gouda", "camembert"]
     cheese_types.each do |cheese|
-      binding.pry
+      #binding.pry
      if ingredients.include?(cheese)
      return cheese
     end
   end
+  nil
 end
