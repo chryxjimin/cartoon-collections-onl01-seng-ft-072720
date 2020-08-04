@@ -24,8 +24,7 @@ def find_the_cheese(ingredients)
     cheese_types.each do |cheese|
       binding.pry
      if ingredients.include?(cheese)
-     #new_array << ingredients.find do |cheese|
+     return cheese
     end
-     return new_array
   end
 end
