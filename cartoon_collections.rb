@@ -1,3 +1,4 @@
+require "pry"
 def roll_call_dwarves(names)
   names.each_with_index do |name, index|
   puts "#{index+1}. #{name}"
@@ -23,7 +24,7 @@ def find_the_cheese(ingredients)
     cheese_types.each do |cheese|
       binding.pry
      if ingredients.include?(cheese_types)
-     new_array << ingredients.find do |cheese|
+     #new_array << ingredients.find do |cheese|
     end
      return new_array
   end
